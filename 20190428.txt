@@ -1,0 +1,23 @@
+富阳两个屏幕呼叫的问题处理步骤
+1.修改esb callnext 插入逻辑 tcp.bcs的获取护士站checkresult逻辑
+2.ct_roominfo 表配置两套screenid和roomid对应信息
+3.ct_nursetoscreen修改对应关系
+4.结束，测试，上线
+
+富阳报到诊间屏添加医生二维码图片问题
+1.现场给图
+2.UI作页面
+3.设计页面
+4.给我html
+5.塞数据
+6.结束，测试，上线
+
+
+富阳医生不登录报到
+1.不好弄
+
+
+<div class="status-pic">
+<img src="../content/fy/content/image/icon-checkin-success.png" />
+</div >
+<div class="status-succ"><h2>报到成功</h2><ul><li>姓名: <span>张三</span></li><li>排队号: <span>234</span>,前面还有<span>2</span>人</li><li>请在<span>01诊室</span>外等候</li></ul><h4>请取回您的卡片</h4></div><div class="status-pic"><img src="../content/fy/content/image/icon-checkin-success.png" /></div ><div class="status-succ"><h2>报到成功</h2><ul><li>姓名: <span>张三</span></li><li>排队号: <span>234</span>,前面还有<span>2</span>人</li><li>请在<span>01诊室</span>外等候</li></ul><h4>请取回您的卡片</h4></div><div>集中报到失败</div>
